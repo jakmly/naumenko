@@ -1,0 +1,33 @@
+.heading__main {
+    width: 90rem;
+    margin-left: 0;
+}
+
+.word-carousel {
+    &__box {
+        overflow: hidden;
+        position: relative;
+        float: left;
+        height: 11rem;
+        padding-top: 1rem;
+        margin-top: -1rem;
+
+        :first-child {
+            color: $color-tertiary-base;
+        }
+
+        :last-child {
+            color: $color-secondary-base;
+        }
+    }
+    &__item {
+        margin-left: 2rem;      
+        display: block;
+        margin-bottom: 9rem;
+        
+    }
+}
+
+.flip2 { 
+    animation: flip2 3s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; 
+}

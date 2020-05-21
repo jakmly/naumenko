@@ -1,8 +1,115 @@
 @keyframes flip2 {
-    0% { margin-top: -180px; }
-    5% { margin-top: -90px;  }
-    50% { margin-top: -90px; }
-    55% { margin-top: 0px; }
-    99.99% { margin-top: 0px; }
-    100% { margin-top: -270px; }
+    0% { margin-top: -30rem; }
+    5% { margin-top: -20rem;  }
+    50% { margin-top: -20rem; }
+    55% { margin-top: 0rem; }
+    99.99% { margin-top: 0rem; }
+    100% { margin-top: -27rem; }
 }
+
+@keyframes dot {
+    0% {top:10%;
+    left:15%}
+
+    1% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    5% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    7% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    9% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    12% {
+            top: percentage(random(100) / 100);
+            left: percentage(random(100) / 100);
+    }
+
+    22% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    27% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+    39% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+    40% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+    48% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+    54% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+    68% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+    74% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    75% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    78% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    80% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    81% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    88% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    90% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    91% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+    97% {
+        top: percentage(random(100) / 100);
+        left: percentage(random(100) / 100);
+    }
+
+    100% {top:10%;
+        left:15%}
+}
+    

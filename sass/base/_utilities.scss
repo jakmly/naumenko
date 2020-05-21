@@ -5,3 +5,12 @@
 .u-float-right {
     float: right;
 }
+
+.u-clearfix {
+
+   @include clearfix;
+}
+
+.u-center {
+    text-align: center;
+}

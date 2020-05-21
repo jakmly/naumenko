@@ -1,6 +1,22 @@
 // font-family: 'BioRhyme Expanded', serif;
 // font-family: 'IBM Plex Sans', sans-serif;
-.heading__main {
-    width: 50vw;
-    font-size: 6rem;
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: $color-black;
+    font-size: 1.6rem;
+}
+
+.heading-primary {
+    font-family: 'BioRhyme Expanded', serif;
+    font-size: 7rem;
+}
+
+.social--instagram {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: $color-black;
+
 }

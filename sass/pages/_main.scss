@@ -1,18 +1,82 @@
-.word-carousel {
-    &__box {
-        overflow: hidden;
+.section-main {
+position: relative;
+    &__social {
+        position: absolute;
+        float:left;
+        margin-top: 20rem;
+
+        a {
+            writing-mode: vertical-rl;
+            font-family: 'BioRhyme Expanded', serif;
+            font-size: 4rem;
+            }
+        }
+       
+    
+    
+    &__folders {
         position: relative;
-        float: left;
-        height: 9rem;
-        padding-top: 10px;
-        margin-top: -10px;
-    }
-    &__item {
-        margin-left: 1rem;        
-        height: 5.5rem;
-        margin-bottom: 3.5rem;
-        display: block;
+        margin-left: 7rem;
+        float:left;
     }
 }
 
-.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+.folder {
+    float: left;
+    text-align: center;
+    margin: 7rem;
+    
+    &__title {
+        margin-top: 2rem;
+        text-transform: capitalize;
+        font-size: 4rem;
+        
+    }
+
+    &__image {
+        width: 15rem;
+    }
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 5rem;
+
+    &__link {
+        font-family: 'BioRhyme Expanded', serif;
+        text-transform: capitalize;
+        display: block;
+        float: right;
+        font-size: 4rem;
+        margin:5rem 0 0 5rem;
+        background-color: $color-primary-base;
+    
+    }
+
+}
+
+.dot {
+    display: block;
+    position: absolute;
+    content: " ";
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    background: rgba($color-primary-base, 1);
+    
+    
+    box-shadow: 
+
+    0 0 .5rem rgba($color-primary-base, .4),
+    0 0 1rem rgba($color-primary-base, .4),
+    0 0 2rem rgba($color-primary-base, .4),
+    0 0 3rem rgba($color-primary-base, .4),
+    0 0 4rem rgba($color-primary-base, .4);
+    animation: dot 200s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
